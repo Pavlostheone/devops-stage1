@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: stage1-demo
-        image: stage1-demo
-        imagePullPolicy: Never
+        image: ghcr.io/pavlostheone/stage1-demo:latest
+        imagePullPolicy: Always
         ports:
           - containerPort: 8000
